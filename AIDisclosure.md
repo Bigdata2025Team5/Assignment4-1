@@ -1,6 +1,6 @@
 # AI Disclosure
 
-In this project, we used AI tools like ChatGPT and Perplexity to help with the following tasks:
+In this assignment, we used AI tools like ChatGPT and Perplexity to help with the following tasks:
 
 1. **Understanding Redis and Redis Streams**  
    We used AI tools to learn about Redis and how Redis Streams work. This helped us understand its features and how it handles data.
