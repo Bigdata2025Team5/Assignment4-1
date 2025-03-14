@@ -1,14 +1,13 @@
 # Assignment4
 
-## 📖 Project Summary
-This project is a Streamlit-based AI application that allows users to upload PDFs or enter URLs for automated data extraction, summarization, and Q&A using multiple LLM models. The backend is powered by FastAPI, handling requests, processing data using PyMuPDF and storing extracted content in AWS S3. A Redis stream is used for task queuing, ensuring efficient handling of summarization and Q&A requests. Users can select their preferred LLM model, and the system provides token usage and cost breakdowns for transparency. The app is designed for seamless interactive visualization of extracted insights, making document processing faster and more accessible.
----
+
 ## Links 
 Codelabs : https://codelabs-preview.appspot.com/?file_id=1ibR7swpZmM5--BO9HV6jA_pQWA80h_mt2lWQlNWOzMw#0
 
 Front-end (Stremlit): https://damgassignment4-dvnn8diaea6xjifv7hfxbp.streamlit.app/
 
 Back-end (Fast-api): https://api-695260164759.us-central1.run.app
+
 ---
 
 ## 📌 Problem Statement
@@ -28,6 +27,7 @@ The use of digital documentation increases, users frequently encounter difficult
 ---
 
 ## 🏗️ Architecture Diagram
+![AI Application Data Pipeline](https://github.com/Bigdata2025Team5/Assignment4/blob/main/Architecture_Diagram/ai_application_data_pipeline_llms.png?raw=true)
 
 ---
 
@@ -107,14 +107,15 @@ View Logs & Task Status: Monitor the processing status of summarization and Q&A 
 ```
 
 ---
-##References
-PyMuPDF Documentation
-AWS S3 Storage
-OpenAI GPT-4o Documentation
-Google Gemini 2.0 Flash Documentation
-DeepSeek LLM Documentation
-Anthropic Claude Documentation
-xAI Grok Documentation
+## References
+
+- https://pymupdf.readthedocs.io/
+- https://aws.amazon.com/s3/
+- https://platform.openai.com/docs/guides/gpt/gpt-models
+- https://docs.aimlapi.com/api-references/text-models-llm/google/gemini-2.0-flash-exp
+- https://api-docs.deepseek.com/
+- https://docs.anthropic.com/en/docs/welcome
+- https://docs.x.ai/docs/tutorial
 
 ---
 
