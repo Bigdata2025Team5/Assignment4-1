@@ -1,7 +1,0 @@
-redis
-litellm
-python-dotenv
-google-auth
-google-api-python-client
-google-cloud
-google-cloud-storage
